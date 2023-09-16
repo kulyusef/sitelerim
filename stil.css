@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('arkaplan.jpg'); /* Arka plan resmi */
+    background-size: 100% 100%; /* Resmi ekranın tamamını kaplayacak şekilde ölçekle */
+    background-repeat: no-repeat; /* Tekrar etme */
+    background-attachment: fixed; /* Resmin kaydırma ile hareket etmemesini sağlar */
+    font-family: Arial, sans-serif;
+}
+
+
+/* Gri kutu stil */
+.gri-kutu {
+    width: 220px; /* Daha küçük bir genişlik */
+    height: 220px; /* Daha küçük bir yükseklik */
+    background-color: #141414; /* Gri arka plan */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Kenarları yuvarlatmak için */
+}
+.kuyruk {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Başlık stil */
+.baslik {
+    color: #6c5d80; /* Beyaz renk */
+    font-weight: bold; /* Kalın yazı */
+    font-size: 24px; /* Yazı boyutu */
+    margin-bottom: 10px; /* Başlığın altında boşluk bırak */
+    position: absolute; /* Başlığın pozisyonunu ayarla */
+    top: 33px; /* Üstten 10px mesafe bırak */
+}
